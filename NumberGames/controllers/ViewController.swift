@@ -13,7 +13,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    @IBAction func unwindToTop(_ unwindSegue: UIStoryboardSegue) {
 
+    }
 
+}
+
+#Preview {
+    UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()!
 }
 
